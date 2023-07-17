@@ -3,7 +3,6 @@ def findMatrixTranspose(matrix, noOfRows):
         for j in range(i, noOfRows):
             matrix[i][j], matrix[j][i] = matrix[j][i], matrix[i][j]
 
-    print(matrix)
     return matrix
 
 
